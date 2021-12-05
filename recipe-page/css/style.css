@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 7rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9%;
+  z-index: 999;
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fe5305;
+}
+
+.header .logo span {
+  color: #556b0a;
+  font-weight: 700;
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header .navigation li a {
+  margin-right: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fe5305;
+  position: relative;
+}
+
+.header .navigation li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #556b0a;
+  transition: width 0.3s;
+}
+
+.header .navigation a:hover::after {
+  width: 100%;
+}
+
+.header #menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+section {
+  padding: 0 9%;
+  overflow: hidden;
+}
+
+.home {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.home .content .text {
+  flex-basis: 50%;
+}
+
+.home .content .text h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: #ffffff;
+}
+
+.home .content .text p {
+  margin-top: 3.5rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.home .content .text .btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: #fe5305;
+  margin-top: 3.5rem;
+
+  box-shadow: 3px 3px 10px #fe54057a;
+}
+
+.home .content .text .btn:hover {
+  transform: scale(1.1);
+}
+
+.home .content .image {
+  flex-basis: 50%;
+}
+
+.home .content .image img {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.recipe {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.heading {
+  width: fit-content;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 60%;
+  height: 5px;
+  background: #fe5305;
+}
+
+.recipe .text {
+  margin-top: 7rem;
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 0;
+}
+
+.recipe .text h3 {
+  font-size: 3rem;
+  color: #556b0a;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.recipe .text h4 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fe5305;
+}
+
+.recipe .text p {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.recipe ul li,
+.recipe ol li {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.recipe .image {
+  width: 50rem;
+  height: 50rem;
+  margin-top: 7rem;
+  position: absolute;
+  right: 9%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.recipe .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5rem 0 0rem;
+}
+.recipe .image figure figcaption {
+  background-color: #556b0a;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  padding: 0 9%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li a {
+  background: #fe5305;
+  margin-left: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+footer ul li a:hover {
+  color: #556b0a;
+}
+footer p {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+/* Responsive BP*/
+@media (max-width: 600px) {
+  .header .navigation {
+    display: none;
+  }
+
+  .header #menu-btn {
+    display: block;
+  }
+
+  .home {
+    min-height: 80vh;
+  }
+  .home .content {
+    width: 100%;
+  }
+  .home .content .text {
+    min-width: 100%;
+  }
+
+  .home .content .text h1 {
+    font-size: 4rem;
+  }
+
+  .home .content .image {
+    visibility: hidden;
+  }
+
+  .recipe .text {
+    margin: 0;
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .recipe .heading {
+    font-size: 3rem;
+  }
+
+  .recipe .image {
+    position: relative;
+    top: 30rem;
+    right: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .recipe .text {
+    margin: 0;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
