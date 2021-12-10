@@ -95,10 +95,12 @@ body {
   filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
 }
 
-.content .registration .input-container img {
+.content .registration .input-container button {
   position: absolute;
   right: 0;
   height: 100%;
+  cursor: pointer;
+  border: none;
 }
 
 .content .registration a {
