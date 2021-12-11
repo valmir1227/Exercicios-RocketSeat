@@ -5,7 +5,7 @@
 - **⭐ Desafio 1: Página de Receita**
 
 
-<p float="left" align="center">
+<p float="left" align="left">
  
   **Versão Desktop**
  
@@ -15,7 +15,7 @@
   
   **Versão Mobile**
     
-<p float="left" align="center">
+<p float="left" align="left">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-mobile.png" width="280px">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-mobile.png" width="280px">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/footer-mobile.png" width="280px">
