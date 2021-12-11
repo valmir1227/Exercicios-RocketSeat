@@ -6,7 +6,7 @@
 
   **Versão Desktop**
 
-<p float="left">
+<p float="left" align="center">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-desktop.png" width="500">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-desktop.png" width="500">
 </p>
