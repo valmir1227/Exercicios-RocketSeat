@@ -15,7 +15,7 @@
   **Versão Mobile**
   
 <p float="left">
-<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-mobile.png" width="300px">
-<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-mobile.png" width="300px">
-<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/footer-mobile.png" width="300px">
+<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-mobile.png" width="280px">
+<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-mobile.png" width="280px">
+<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/footer-mobile.png" width="280px">
 </p>
