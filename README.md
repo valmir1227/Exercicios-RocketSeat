@@ -8,6 +8,7 @@
 
 <p float="left" align="left"> 
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-desktop.png" width="500">
+    
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-desktop.png" width="500">
 </p>
   
@@ -15,7 +16,9 @@
     
 <p float="left" align="left">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/home-mobile.png" width="280px">
+    
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/content-mobile.png" width="280px">
+    
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/recipe-page/demo/footer-mobile.png" width="280px">
 
 </p>
@@ -33,5 +36,13 @@
 
 <p float="left">
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-news/demo/mobile.png" width="300">
+    
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-news/demo/desktop.png" width="500">
  </p>
+ 
+ - **⭐⭐⭐⭐ Desafio 4: Sidebar**
+<p float="left">
+  <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/desafio-sidebar/demo/sidebar-closed.png" width="450">
+  <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/desafio-sidebar/demo/sidebar-open.png" width="450">
+ </p>
+
