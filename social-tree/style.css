@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .wrapper {
+  width: 360px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .wrapper .user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.container .wrapper .user-image::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 3px solid #bb99dd;
+}
+
+.container .wrapper .user-image img {
+  width: 100%;
+  height: 100%;
+  clip-path: circle();
+  object-fit: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.container p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--purple);
+  margin-top: 15px;
+}
+
+.wrapper .link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 33px;
+}
+
+.wrapper .link-container a {
+  display: block;
+  width: 325px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 2px solid #bb99dd;
+  text-align: center;
+  line-height: 50px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper .link-container a:hover {
+  background: var(--purple);
+  color: var(--body-bg-color);
+  border-color: #8b69ad;
+
+  transform: scale(1.03);
+}
+
+.wrapper .social {
+  display: flex;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.wrapper .social a {
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper .social a:hover {
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 350px) {
+  .wrapper .link-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper .link-container a {
+    width: 90%;
+  }
+}
