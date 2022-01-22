@@ -49,6 +49,17 @@
 - **⭐⭐⭐⭐⭐ Desafio 5: Social Tree**
 <p float="left">
   <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/social-tree/demo/ip13-socila-tree.png" width="450">
-    
-  <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/social-tree/demo/spcial%20tree.png" width="600">
  </p>
+ 
+ - **⭐⭐⭐⭐⭐ Desafio 6: Rocket Card**
+ ### Tecnologias
+ - HTMl
+ - CSS
+ - JavaScript
+
+## Resumo 
+ <p>Rocket card consome a API do Github para atualizar os dados de forma dinâmica, além de gerar cores aleatórias para o card.</p>
+
+<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-card/images/demo.png" width="450">
+    
+ 
