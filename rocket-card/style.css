@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap");
+
+:root {
+  --bg: #000000;
+  --bg-card: #0e1218;
+  --text: #f1f1f1;
+  --img-profile: #8257e5;
+  --buttons: #fff;
+  --border-button: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: var(--bg-card);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card {
+  width: 438px;
+  height: 693px;
+  background: var(--bg);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color .5s ease-in;
+}
+
+.container .card .card-wrapper {
+  width: 407px;
+  height: 644px;
+  border-radius: 50px;
+  background: var(--bg-card);
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  margin-left: 33px;
+  margin-bottom: 11px;
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 30px;
+  height: 36px;
+}
+
+header a {
+  margin-left: 20px;
+  color: var(--text);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.image {
+  width: 387px;
+  height: 385px;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  clip-path: circle();
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: 372px;
+  height: 370px;
+  border-radius: 50%;
+  border: 7px solid #8257e5;
+}
+
+.info {
+  width: 190px;
+  height: 218px;
+  position: absolute;
+  top: 50%;
+  margin-left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    180deg,
+    #000000 3.65%,
+    rgba(70, 69, 69, 0.72) 53.65%,
+    rgba(62, 56, 56, 0.42) 100%
+  );
+}
+
+.info-wrapper {
+  margin: 9px auto;
+}
+
+.info-wrapper img {
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+.info-wrapper span {
+  margin-left: 10px;
+}
+
+.customize-card {
+  margin-left: 150px;
+}
+
+.customize-card p {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.customize-card button {
+  width: 229px;
+  height: 59.47px;
+  background: var(--bg);
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  margin-top: 33px;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.customize-card button:hover {
+  transform: scale(1.1);
+}

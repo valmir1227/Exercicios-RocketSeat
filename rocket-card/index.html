@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Rocket Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-wrapper">
+          <header>
+            <img src="images/logo.svg" alt="logo rocketseat" />
+            <a id="userName" href="">Valmir</a>
+          </header>
+          <div class="image">
+            <img id="userImage" src="" />
+          </div>
+
+          <div class="info">
+            <div class="info-wrapper">
+              <img src="images/followers.svg" alt="logo Seguidores" /><span
+                id="followers"
+              >
+                716 Seguidores</span
+              >
+              <br />
+              <img src="images/following.svg" alt="logo Seguindo" /><span
+                id="following"
+              >
+                193 Seguindo</span
+              >
+              <br />
+              <img src="images/repository.svg" alt="logo repository" /><span
+                id="repositorys"
+              >
+                38 Repositórios</span
+              >
+              <br />
+              <img src="images/company.svg" alt="logo company" /><span>
+                @Rocketseat</span
+              >
+              <br />
+              <img src="images/location.svg" alt="logo location" /><span>
+                Santana - SP</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="customize-card">
+        <p>Customizar Rocketcard</p>
+        <button id="btn">Gerar background</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
