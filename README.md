@@ -23,14 +23,14 @@
 
 </p>
 
-- **⭐⭐ Desafio 2: Desafios de HTML5**
+- **⭐ Desafio 2: Desafios de HTML5**
  1. 📃 Lista 
  2. 🤔 Quiz
  3. 📘 Glossário
  4. 📞 Contato
  5. 📱 Blog-Post
 
-- **⭐⭐⭐ Desafio 3: Rocket News**
+- **⭐ Desafio 3: Rocket News**
 
      **Versões**
 
@@ -40,18 +40,18 @@
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-news/demo/desktop.png" width="500">
  </p>
  
- - **⭐⭐⭐⭐ Desafio 4: Sidebar**
+ - **⭐ Desafio 4: Sidebar**
 <p float="left">
   <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/desafio-sidebar/demo/sidebar-closed.png" width="450">
   <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/desafio-sidebar/demo/sidebar-open.png" width="450">
  </p>
 
-- **⭐⭐⭐⭐⭐ Desafio 5: Social Tree**
+- **⭐ Desafio 5: Social Tree**
 <p float="left">
   <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/social-tree/demo/ip13-socila-tree.png" width="450">
  </p>
  
- - **⭐⭐⭐⭐⭐ Desafio 6: Rocket Card**
+ - **⭐ Desafio 6: Rocket Card**
  ### Tecnologias
  - HTMl
  - CSS
@@ -62,4 +62,7 @@
 
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-card/images/demo.png" width="450">
     
- 
+ - **⭐ Desafio 7: Portfolio**
+
+<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/Portfolio%20Rocketseat/assets/demo.png" width="450">
+
