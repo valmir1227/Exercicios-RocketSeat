@@ -1,5 +1,7 @@
 # Exercícios RocketSeat
 
+- Video de demonstração de alguns projetos <a href="https://www.youtube.com/watch?v=0HBEUpZsP44&ab_channel=ValmirAlmeida">🔗aqui!</a>
+
 ## Repositório destinado à resolução de desafios da RocketSeat.
 
 - **⭐ Desafio 1: Página de Receita**
