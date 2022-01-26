@@ -64,7 +64,5 @@
 
 <img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/rocket-card/images/demo.png" width="450">
     
- - **⭐ Desafio 7: Portfolio**
 
-<img src="https://github.com/valmir1227/Exercicios-RocketSeat/blob/main/Portfolio%20Rocketseat/assets/demo.png" width="450">
 
